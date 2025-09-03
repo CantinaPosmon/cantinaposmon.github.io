@@ -8,9 +8,9 @@
     body {
       margin: 0;
       padding: 0;
-      font-family: 'Helvetica Neue', sans-serif;
-      background: linear-gradient(to right, #8e2de2, #4a00e0);
-      color: white;
+      font-family: 'Georgia', serif;
+      background: #f4eee3;
+      color: #3c2f2f;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -19,28 +19,48 @@
       flex-direction: column;
     }
 
+    .wrapper {
+      background: #fff8f0bb;
+      padding: 40px 30px 25px 30px;
+      border: 2px solid #7b2235;
+      border-radius: 18px;
+      box-shadow: 0 10px 32px #7b223510;
+      display: inline-block;
+    }
+
     .logo {
       max-width: 160px;
       margin-bottom: 20px;
+      border: 1px solid #7b2235;
+      border-radius: 4px;
+      display: inline-block;
     }
 
     h1 {
       font-size: 2.5rem;
       margin-bottom: 10px;
+      color: #4a2f2f;
     }
 
     p {
       font-size: 1.2rem;
       margin-bottom: 30px;
+      color: #5a433f;
     }
 
     .contact {
       font-size: 0.9rem;
       opacity: 0.9;
+      color: #5a433f;
     }
 
     .contact a {
-      color: #ffffff;
+      color: #7b2235;
+      text-decoration: none;
+      transition: text-decoration 0.2s ease-in-out;
+    }
+
+    .contact a:hover {
       text-decoration: underline;
     }
 
@@ -48,7 +68,7 @@
       position: absolute;
       bottom: 20px;
       font-size: 0.8rem;
-      opacity: 0.6;
+      color: #7b22357a;
     }
 
     @media (max-width: 600px) {
@@ -64,15 +84,17 @@
 </head>
 <body>
 
-  <!-- Inserisci qui il logo, se disponibile -->
-  <!-- <img class="logo" src="logo-posmon.png" alt="Logo Cantina Posmon" /> -->
+  <div class="wrapper">
+    <!-- Inserisci qui il logo, se disponibile -->
+    <!-- <img class="logo" src="logo-posmon.png" alt="Logo Cantina Posmon" /> -->
 
-  <h1>Stiamo arrivando!</h1>
-  <p>Il nuovo sito della <strong>Cantina Posmon</strong> è in costruzione.<br>Ritorna a trovarci presto!</p>
+    <h1>Lavori in corso...</h1>
+    <p>Il nuovo sito della <strong>Cantina Posmon</strong> è in costruzione.<br>Ritorna a trovarci presto!</p>
 
-  <div class="contact">
-    Per informazioni: <a href="mailto:infocantinaposmon@gmail.com">infocantinaposmon@gmail.com</a><br>
-    WhatsApp: <a href="https://wa.me/393409569644" target="_blank">+39 340 956 9644</a>
+    <div class="contact">
+      Per informazioni: <a href="mailto:infocantinaposmon@gmail.com">infocantinaposmon@gmail.com</a><br>
+      WhatsApp: <a href="https://wa.me/393409569644" target="_blank">+39 340 956 9644</a>
+    </div>
   </div>
 
   <footer>© 2025 Cantina Posmon – Farra di Soligo (TV)</footer>
